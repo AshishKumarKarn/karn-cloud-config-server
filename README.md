@@ -1,8 +1,6 @@
 # karn-cloud-config-server
 Spring cloud server
 
-
-#Your config files must be in master branch.
-Github by default, sometimes, creates 'main' branch. Please create master branch and push the changes to the 'master' branch
-
+Check for master and main branch as issue might come
+Set : spring.cloud.config.server.git.default-label=master to pick file from master branch.
 You can also configure the default branch under branch settings
